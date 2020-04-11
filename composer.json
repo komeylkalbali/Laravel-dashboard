@@ -28,10 +28,13 @@
     },
 
     "extra": {
-        "dashbord": {
+        "laravel": {
             "providers": [
-                "Dashbord\\src\\PanelServiceProvider"
-            ]
+                "dashboard\\src\\PanelServiceProvider"
+            ],
+            "aliases": {
+                "dashboard": "dashboard\\src\\Facade"
+            }
         }
     }
 }

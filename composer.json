@@ -1,7 +1,7 @@
 {
     "name": "komeyl/dashboard",
     "description": "this is a basic laravel dashboard for speed project",
-    "keywords": ["laravel", "admin", "panel"],
+    "keywords": ["laravel", "admin", "panel" . "dashboard],
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7",
         "davejamesmiller/laravel-breadcrumbs": "5.x"
     },
     "autoload": {
@@ -30,11 +29,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "dashboard\\src\\PanelServiceProvider"
-            ],
-            "aliases": {
-                "dashboard": "dashboard\\src\\Facade"
-            }
+                "komeyl\\dashboard\\src\\PanelServiceProvider"
+            ]
         }
     }
 }

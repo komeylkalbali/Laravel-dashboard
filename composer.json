@@ -1,0 +1,36 @@
+{
+    "name": "komeyl/dashboard",
+    "description": "this is a basic laravel dashboard for speed project",
+    "keywords": ["laravel", "admin", "panel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "komeyl kalbali",
+            "email": "komeyl.kalbali.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "davejamesmiller/laravel-breadcrumbs": "5.x"
+    },
+    "autoload": {
+        "files": [
+            "src/Http/Helpers/helperFun.php"
+        ],
+        "classmap": [
+            "src/Database/"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "dashboard\\": "dashboard/src/"
+        }
+    },
+
+    "extra": {
+        "dashbord": {
+            "providers": [
+                "Dashbord\\src\\PanelServiceProvider"
+            ]
+        }
+    }
+}

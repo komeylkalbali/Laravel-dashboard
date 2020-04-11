@@ -4,7 +4,7 @@ namespace dashboard\src;
 
 use Illuminate\Support\ServiceProvider;
 
-class PanelServiceProvider extends ServiceProvider
+class DashboardServiceProvider extends ServiceProvider
 {
     /**
      * Register services.

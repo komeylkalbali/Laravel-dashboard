@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "php": "7.*",
         "davejamesmiller/laravel-breadcrumbs": "5.x"
     },
     "autoload": {

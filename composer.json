@@ -22,7 +22,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Dashboard\\Src": "src/"
+            "Dashboard\\Src\\": "src/"
         }
     },
     "extra": {

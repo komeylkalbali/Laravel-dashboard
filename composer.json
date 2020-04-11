@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "komeyl\\dashboard\\PanelServiceProvider"
+                "Komeyl\\Dashboard\\PanelServiceProvider"
             ]
         }
     }

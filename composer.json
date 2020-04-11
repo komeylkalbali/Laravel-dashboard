@@ -1,7 +1,7 @@
 {
     "name": "komeyl/dashboard",
-    "description": "this is a basic laravel dashboard for speed project",
-    "keywords": ["laravel", "admin", "panel"],
+    "description": "This is a basic laravel dashboard for speed project",
+    "keywords": ["laravel", "admin", "panel" , "dashboard"],
     "license": "MIT",
     "authors": [
         {
@@ -22,14 +22,13 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "dashboard\\": "dashboard/src/"
+            "Dashboard\\Src": "dashboard/src/"
         }
     },
-
     "extra": {
-        "dashbord": {
+        "laravel": {
             "providers": [
-                "Dashbord\\src\\PanelServiceProvider"
+                "Komeyl\\Dashbord\\PanelServiceProvider"
             ]
         }
     }

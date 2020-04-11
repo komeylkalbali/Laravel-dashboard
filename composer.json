@@ -1,6 +1,6 @@
 {
     "name": "komeyl/dashboard",
-    "description": "this is a basic laravel dashboard for speed project",
+    "description": "This is a basic laravel dashboard for speed project",
     "keywords": ["laravel", "admin", "panel" , "dashboard"],
     "license": "MIT",
     "authors": [
@@ -22,7 +22,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "komeyl\\dashboard\\": "src/"
+            "Komeyl\\Dashboard\\": "src/"
         }
     },
 

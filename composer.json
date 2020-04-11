@@ -3,6 +3,7 @@
     "description": "This is a basic laravel dashboard for speed project",
     "keywords": ["laravel", "admin", "panel" , "dashboard"],
     "license": "MIT",
+    "type": "package",
     "authors": [
         {
             "name": "komeyl kalbali",

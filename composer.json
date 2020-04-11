@@ -1,7 +1,7 @@
 {
     "name": "komeyl/dashboard",
     "description": "this is a basic laravel dashboard for speed project",
-    "keywords": ["laravel", "admin", "panel" . "dashboard],
+    "keywords": ["laravel", "admin", "panel" , "dashboard"],
     "license": "MIT",
     "authors": [
         {

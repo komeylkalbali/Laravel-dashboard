@@ -29,23 +29,27 @@ composer require komeyl/dashboard
 
 publishes views
 
-```sh
+```
 php artisan vendor:publish --tag=views --force
+```
 
 publishes assets
 
-```sh
+```
 php artisan vendor:publish --tag=public --force
+```
 
 publishes translate
 
-```sh
+```
 php artisan vendor:publish --tag=translate --force
+```
 
 publishes controllers
 
-```sh
+```
 php artisan vendor:publish --tag=controllers --force
+```
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 

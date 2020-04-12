@@ -17,7 +17,7 @@ composer require komeyl/dashboard
 
 php artisan vendor:publish --tag=views --force
 
-php artisan vendor:publish --tag=views --force
+php artisan vendor:publish --tag=public --force
 
 ```
 

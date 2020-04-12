@@ -11,8 +11,9 @@
 
 ## Installation
 
-```sh
+```
 composer require komeyl/dashboard
+```
 
 ```json
 {

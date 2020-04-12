@@ -1,8 +1,8 @@
     <nav class="navbar header-navbar pcoded-header">
             <div class="navbar-wrapper">
                 <div class="navbar-logo float-right">
-                    <a href="index.html">
-                        <img class="img-fluid" src="{{ asset('./assets/images/logo.png') }}" alt="Theme-Logo" />
+                    <a href="{{ route('dashboard') }}" class="font-weight-bold">
+                        Dashboard
                     </a>
                     <a class="mobile-menu" id="mobile-collapse" href="index.html#!">
                         <i class="feather icon-menu icon-toggle-right"></i>

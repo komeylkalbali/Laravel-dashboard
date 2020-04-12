@@ -26,17 +26,6 @@
             "Komeyl\\Dashboard\\": "src/"
         }
     },
-	"repositories": [
-        {
-            "type": "composer",
-            "url": "https://packagist.org/packages/komeyl/dashboard"
-        },
-	{
-            "type": "vcs",
-            "url": "https://github.com/Komeyl-dev/Laravel-dashboard"
-        },
-    ],
-
     "extra": {
         "laravel": {
             "providers": [

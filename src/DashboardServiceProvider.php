@@ -1,6 +1,6 @@
 <?php
 
-namespace dashboard\src;
+namespace Komeyl\Dashboard;
 
 use Illuminate\Support\ServiceProvider;
 

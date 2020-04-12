@@ -58,4 +58,4 @@ _For more examples and usage, please refer to the wiki._
 
 Komeyl Kalbali  –  komeyl.kalbali.dev@gmail.com
 
-[https://github.com/yourname/github-link](https://github.com/Komeyl-dev)
+[https://github.com/Komeyl-dev](https://github.com/Komeyl-dev)

@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "komeyl/dashboard":"^1.0"
+        "komeyl/dashboard":"^1.0",
         "davejamesmiller/laravel-breadcrumbs": "5.x"
     },
     "autoload": {

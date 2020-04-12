@@ -1,6 +1,9 @@
 # Laravel-dashboard                                داشبورد لاراول
 >Basic laravel dashboard for speed projects.        یک داشبورد ساده برای افزایش سرعت برنامه نویسی
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/komeyl/dashboard)]
+(https://packagist.org/packages/komeyl/dashboard)
+
 [![Total Downloads](https://poser.pugx.org/komeyl/dashboard/downloads)](https://packagist.org/packages/komeyl/dashboard)
 [![Latest Unstable Version](https://poser.pugx.org/komeyl/dashboard/v/unstable)](https://packagist.org/packages/komeyl/dashboard)
 [![License](https://poser.pugx.org/komeyl/dashboard/license)](https://packagist.org/packages/komeyl/dashboard)

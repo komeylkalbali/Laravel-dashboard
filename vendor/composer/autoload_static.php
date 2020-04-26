@@ -32,6 +32,10 @@ class ComposerStaticInit23021c5d826515812f70be9cee2e73b5
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Container\\' => 14,
         ),
+        'K' => 
+        array (
+            'Komeyl\\Dashboard\\' => 17,
+        ),
         'I' => 
         array (
             'Illuminate\\View\\' => 16,
@@ -49,7 +53,6 @@ class ComposerStaticInit23021c5d826515812f70be9cee2e73b5
         array (
             'Doctrine\\Common\\Inflector\\' => 26,
             'DaveJamesMiller\\Breadcrumbs\\' => 28,
-            'Dashboard\\' => 10,
         ),
         'C' => 
         array (
@@ -98,6 +101,10 @@ class ComposerStaticInit23021c5d826515812f70be9cee2e73b5
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'Komeyl\\Dashboard\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Illuminate\\View\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/view',
@@ -133,10 +140,6 @@ class ComposerStaticInit23021c5d826515812f70be9cee2e73b5
         'DaveJamesMiller\\Breadcrumbs\\' => 
         array (
             0 => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src',
-        ),
-        'Dashboard\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/dashboard/src',
         ),
         'Carbon\\' => 
         array (

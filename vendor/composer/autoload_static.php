@@ -19,10 +19,6 @@ class ComposerStaticInit23021c5d826515812f70be9cee2e73b5
             'voku\\tests\\' => 11,
             'voku\\' => 5,
         ),
-        'd' => 
-        array (
-            'dashboard\\' => 10,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -53,6 +49,7 @@ class ComposerStaticInit23021c5d826515812f70be9cee2e73b5
         array (
             'Doctrine\\Common\\Inflector\\' => 26,
             'DaveJamesMiller\\Breadcrumbs\\' => 28,
+            'Dashboard\\' => 10,
         ),
         'C' => 
         array (
@@ -72,10 +69,6 @@ class ComposerStaticInit23021c5d826515812f70be9cee2e73b5
         'voku\\' => 
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
-        ),
-        'dashboard\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/dashboard/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -140,6 +133,10 @@ class ComposerStaticInit23021c5d826515812f70be9cee2e73b5
         'DaveJamesMiller\\Breadcrumbs\\' => 
         array (
             0 => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src',
+        ),
+        'Dashboard\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/dashboard/src',
         ),
         'Carbon\\' => 
         array (

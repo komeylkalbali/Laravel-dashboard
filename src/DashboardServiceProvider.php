@@ -1,10 +1,11 @@
 <?php
 
-namespace dashboard\src;
+namespace Komeyl\Dashboard;
 
 use Illuminate\Support\ServiceProvider;
+use Komeyl\Dashboard\Commands\PublishDashboard;
 
-class PanelServiceProvider extends ServiceProvider
+class DashboardServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -31,6 +32,12 @@ class PanelServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/routes/breadcrumbs.php');
         $this->loadViewsFrom(__DIR__ . '/Views', 'dashboard');
         $this->loadTranslationsFrom(__DIR__ . '/Translations', 'Lang');
+
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                PublishDashboard::class,
+            ]);
+        }
 
         $this->publishes([
             __DIR__ . '/Views' => base_path('resources/views/dashboard'),

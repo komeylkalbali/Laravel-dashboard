@@ -1,6 +1,6 @@
 <?php
 
-namespace dashboard\src\Http\Controllers;
+namespace Komeyl\Dashboard\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 

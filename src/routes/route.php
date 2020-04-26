@@ -1,7 +1,7 @@
 <?php
 
 Route::group([
-        'namespace' => 'dashboard\src\Http\Controllers',
+        'namespace' => 'Komeyl\Dashboard\Http\Controllers',
         'prefix'    => 'dashboard',
 ], function () {
 

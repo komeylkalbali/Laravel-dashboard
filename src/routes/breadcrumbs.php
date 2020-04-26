@@ -2,7 +2,7 @@
 
 // Home
 Breadcrumbs::for('dashboard', function ($trail) {
-    $trail->push('<i class="feather icon-home"></i>', route('dashboard'));
+    $trail->push('داشبورد', route('dashboard'));
 });
 
 // Home > profile

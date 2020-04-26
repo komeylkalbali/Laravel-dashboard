@@ -1,9 +1,9 @@
     <nav class="navbar header-navbar pcoded-header">
             <div class="navbar-wrapper">
                 <div class="navbar-logo float-right">
-                    <a href="index.html">
-                        <img class="img-fluid" src="{{ asset('./assets/images/logo.png') }}" alt="Theme-Logo" />
-                    </a>
+                    <span class="m-auto f-20 f-w-500" style="color: white;">
+                        Dashboard
+                    </span>
                     <a class="mobile-menu" id="mobile-collapse" href="index.html#!">
                         <i class="feather icon-menu icon-toggle-right"></i>
                     </a>

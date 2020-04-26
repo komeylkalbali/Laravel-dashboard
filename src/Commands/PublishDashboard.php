@@ -37,8 +37,8 @@ class PublishDashboard extends Command
      */
     public function handle()
     {
-        $this->callSilent('vendor:publish', ['--tag' => 'views']);
-        $this->callSilent('vendor:publish', ['--tag' => 'public']);
+        $this->callSilent('vendor:publish', ['--tag' => 'views' ,'--force']);
+        $this->callSilent('vendor:publish', ['--tag' => 'public' ,'--force']);
 
         $this->info('Copied Directory [komeyl/dashboard/src/Views] To [/resources/views/dashboard]');
         $this->info('Copied Directory [komeyl/dashboard/src/Assets] To [/public/assets]');

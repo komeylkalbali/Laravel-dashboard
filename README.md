@@ -13,12 +13,24 @@
 
 ## Installation
 
-```
+```sh
 composer require komeyl/dashboard
 
-php artisan vendor:publish --tag=views --force
+php artisan command:InstallDashboard
 
-php artisan vendor:publish --tag=views --force
+```
+And you see
+
+```sh
+Copied Directory [komeyl/dashboard/src/Views] To [/resources/views/dashboard]
+Copied Directory [komeyl/dashboard/src/Assets] To [/public/assets]
+Dashboard was installed successfully.
+
+       ____                  _       _                                  _
+      |  _ \    __ _   ___  | |__   | |__     ___     __ _   _ __    __| |
+      | | | |  / _` | / __| | '_ \  | '_ \   / _ \   / _` | | '__|  / _` |
+      | |_| | | (_| | \__ \ | | | | | |_) | | (_) | | (_| | | |    | (_| |
+      |____/   \__,_| |___/ |_| |_| |_.__/   \___/   \__,_| |_|     \__,_|
 
 ```
 

@@ -8,7 +8,6 @@
 
 
 
-![](./header.png)
 
 ## Installation
 

@@ -73,6 +73,4 @@ _For more examples and usage, please refer to the wiki._
 
 ## Meta
 
-Komeyl Kalbali  –  komeyl.kalbali.dev@gmail.com
-
 [https://github.com/Komeyl-dev](https://github.com/Komeyl-dev)
